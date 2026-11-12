@@ -85,3 +85,11 @@ font-size: 18px;
     font-family: inherit;
     font-size: 16px;
 }
+
+
+
+
+.left-pass{
+    display: flex;
+    flex-direction: row;
+}

@@ -5,7 +5,7 @@ const characters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", 
 let passOne = document.getElementById("pass-one")
 let passTwo = document.getElementById("pass-two")
 
-
+ 
 
 
 function generate() {
@@ -23,8 +23,8 @@ function generate() {
 
  
 
-function copy(){
+// function copy(){
 
-     console.log(passOne.textContent)
-navigator.clipboard.writeText(passOne.textContent)
-}
+//      console.log(passOne.textContent)
+// navigator.clipboard.writeText(passOne.textContent)
+// }
