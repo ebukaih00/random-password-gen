@@ -1,0 +1,87 @@
+
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    background-color: lightgoldenrodyellow;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    width: fit-content;
+    height: fit-content;
+    padding:64px 32px;
+    border-radius: 8px;
+    gap: 32px;
+    font-family: "IBM Plex Sans", sans-serif;
+    border: 1px solid white;
+    
+    
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+   font-family: "IBM Plex Serif", serif; 
+   
+
+}
+
+h1{
+    color: white;
+    margin: 0px;
+    font-family: inherit;
+    font-size: 32px;
+}
+
+
+
+p{
+    color: lightgray;
+    margin: 0px;
+font-family: "IBM Plex Sans", sans-serif;
+font-size: 18px;
+}
+
+#btn{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    padding: 8px 16px;
+    background-color: #10B981;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+#btn:hover{
+    background-color: #04855a;
+}
+
+.passwords{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+#pass-one, #pass-two{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    justify-content: center;
+    width: 211px;
+    height: 39px;
+    border-radius: 6px;
+    background-color: #273549;
+    color: #55F991;
+    font-family: inherit;
+    font-size: 16px;
+}
